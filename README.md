@@ -22,4 +22,4 @@
 ## Unit tests
 - Unit tests has been written in tests/tests.py and is executed using python unittest module.
 - To run the tests following command needs to be executed from the root folder: 
-       - python -m unittest
+       - python3 -m unittest

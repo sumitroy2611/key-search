@@ -68,8 +68,6 @@ class Testing(unittest.TestCase):
         result = get_value(str(search_object), str(search_key))
         self.assertEqual(result,expected_result)
 
-        print("Start search4 test with object %s and search key %s and result is %s\n" %(search_object,search_key,expected_result))
-
     # test case function to check the search object function
     def test_5_search(self):
         search_object = '{"x":{"y":{"z":"a"}}}'
@@ -79,8 +77,6 @@ class Testing(unittest.TestCase):
 
         result = get_value(str(search_object), str(search_key))
         self.assertEqual(result,expected_result)
-
-        print("Start search5 test with object %s and search key %s and result is %s\n" %(search_object,search_key,expected_result))
 
     if __name__ == '__main__':
         # begin the unittest.main()
